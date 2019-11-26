@@ -88,7 +88,7 @@ def mouse_release(m):
 keymap = {
     "amp": Key("alt-cmd-8"),
     # jsc modified with some voice-code compatibility
-    "righty": delayed_right_click,
+    "(righty | psychic)": delayed_right_click,
     "click": delayed_click,
     "(dubclick | duke)": delayed_dubclick,
     "(tripclick | triplick)": delayed_tripclick,
@@ -97,8 +97,10 @@ keymap = {
     # jsc added
     "(shift click | shicks)": shift_click,
     "(command click | chom lick)": command_click,
-    "wheel down": mouse_scroll(200),
-    "wheel up": mouse_scroll(-200),
+    "do park": [delayed_dubclick, Key("cmd-v")],
+    "do koosh": [delayed_dubclick, Key("cmd-c")],
+    "wheel down": mouse_scroll(250),
+    "wheel up": mouse_scroll(-250),
 }
 
 ctx.keymap(keymap)
