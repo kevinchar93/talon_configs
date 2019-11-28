@@ -60,6 +60,10 @@ def delayed_right_click(m):
     delayed_click(m, button=1)
 
 
+def delayed_middle_click(m):
+    delayed_click(m, button=2)
+
+
 def delayed_dubclick(m):
     delayed_click(m, button=0, times=2)
 
@@ -89,11 +93,12 @@ keymap = {
     "amp": Key("alt-cmd-8"),
     # jsc modified with some voice-code compatibility
     "(righty | psychic)": delayed_right_click,
-    "click": delayed_click,
+    "(click | kick)": delayed_click,
+    "(kick mid)": delayed_middle_click,
     "(dubclick | duke)": delayed_dubclick,
     "(tripclick | triplick)": delayed_tripclick,
-    "drag": mouse_drag,
-    "release": mouse_release,
+    "(drag | squat)": mouse_drag,
+    "(release | bench)": mouse_release,
     # jsc added
     "(shift click | shicks)": shift_click,
     "(command click | chom lick)": command_click,

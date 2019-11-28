@@ -6,11 +6,24 @@ alpha_alt = 'air bat cap drum each fine gust harp sit jury crunch look made near
 f_keys = {f"F {i}": f"f{i}" for i in range(1, 13)}
 # arrows are separated because 'up' has a high false positive rate
 arrows = ["left", "right", "up", "down"]
-simple_keys = ["tab", "escape", "enter", "space", "pageup", "pagedown"]
-alternate_keys = {"delete": "backspace", "forward delete": "delete"}
+simple_keys = ["tab", "escape", "space", "pageup", "pagedown"]
+
+caster_arrows = {
+    "lease": "left",
+    "ross": "right",
+    "source": "up",
+    "dunce": "down",
+}
+
+alternate_keys = {
+    "clear": "backspace",
+    "delhi": "delete",
+    "shock": "enter"
+}
+
 symbols = {
     "back tick": "`",
-    "comma": ",",
+    "commie": ",",
     "dot": ".",
     "period": ".",
     "semi": ";",
@@ -51,6 +64,7 @@ keymap = keys.copy()
 keymap.update(arrows)
 keymap.update(alphabet)
 keymap.update(digits)
+keymap.update(caster_arrows)
 
 
 def insert(s):
@@ -65,7 +79,12 @@ def get_modifiers(m):
 
 
 def get_keys(m):
-    groups = ["basic.keys", "basic.arrows", "basic.digits", "basic.alphabet"]
+    groups = ["basic.keys",
+              "basic.arrows",
+              "basic.digits",
+              "basic.alphabet",
+              "basic.caster_arrows"]
+
     for group in groups:
         try:
             return [keymap[k] for k in m[group]]
@@ -96,10 +115,12 @@ ctx.keymap(
         "{basic.modifiers}* {basic.digits}+": press_keys,
         "{basic.modifiers}* {basic.keys}+": press_keys,
         "(go | {basic.modifiers}+) {basic.arrows}+": press_keys,
+        "[{basic.modifiers}+] {basic.caster_arrows}+": press_keys,
     }
 )
 ctx.set_list("alphabet", alphabet.keys())
 ctx.set_list("arrows", arrows.keys())
+ctx.set_list("caster_arrows", caster_arrows.keys())
 ctx.set_list("digits", digits.keys())
 ctx.set_list("keys", keys.keys())
 ctx.set_list("modifiers", modifiers.keys())
