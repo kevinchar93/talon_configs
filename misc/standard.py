@@ -118,7 +118,7 @@ keymap.update(
         "zoom [in]": Key("cmd-+"),
         "zoom out": Key("cmd--"),
         "(page | scroll) up": Key("pgup"),
-        "(page | scroll) [down]": Key("pgdown"),
+        "(page | scroll) down": Key("pgdown"),
         "(copy | stoush | stoosh)": Key("cmd-c"),
         "cut": Key("cmd-x"),
         "window cut": Key("ctrl-x"),
