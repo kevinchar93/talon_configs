@@ -10,7 +10,7 @@ class NoiseModel:
 
     def on_noise(self, noise):
         if noise == "pop":
-            ctrl.mouse_click(button=0, hold=16000)
+            ctrl.mouse_click(button=0, times=1, hold=16000)
 
 
 model = NoiseModel()
