@@ -23,6 +23,7 @@ context.keymap(
         "(at sign | at symbol)": "@",
         "(and sign | ampersand )": "&",
         # "pipe": "|",
+        "spacey": " = ",
         "pipe to": " | ",
         "(dubquote | double quote)": '"',
         "triple quote": "'''",
