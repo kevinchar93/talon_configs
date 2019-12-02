@@ -19,7 +19,10 @@ def switch_app(m):
 
 
 ctx = Context("switcher")
-keymap = {"(focus | folk) {switcher.apps}": switch_app}
+keymap = {
+    "(focus | folk) {switcher.apps}": switch_app,
+    "dredge": Key("cmd-tab")
+}
 ctx.keymap(keymap)
 
 
