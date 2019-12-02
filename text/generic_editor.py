@@ -97,6 +97,8 @@ keymap = {
     "pop": Key("cmd-left"),
     "step": Key("alt-right"),
     "stone": Key("alt-left"),
+    "home": Key("home"),
+    "end": Key("end"),
     "jump to <dgndictation>": jump_to,
 }
 
