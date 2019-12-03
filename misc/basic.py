@@ -28,6 +28,7 @@ symbols = {
     "period": ".",
     "semi": ";",
     "semicolon": ";",
+    "semper": ";",
     "quote": "'",
     "L square": "[",
     "left square": "[",
