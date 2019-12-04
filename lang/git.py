@@ -61,7 +61,8 @@ context.keymap(
         "run get last commit": "git rev-parse HEAD\n",
         "copy last commit": ["git rev-parse HEAD | pbcopy", Key("enter")],
         "get [remote] add origin": "git remote add origin ",
-        "get log one line": "git log --oneline",
-        "get revert": "git revert",
+        "get log one line": "git log --oneline \n",
+        "get revert": "git revert ",
+        "get config": "git config  ",
     }
 )
