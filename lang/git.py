@@ -64,5 +64,6 @@ context.keymap(
         "get log one line": "git log --oneline \n",
         "get revert": "git revert ",
         "get config": "git config  ",
+        "get cherry pick": "git cherry-pick ",
     }
 )
