@@ -14,10 +14,10 @@ context = Context("history")
 
 path = os.path.join(TALON_HOME, "last_phrase")
 WEBVIEW = True
-FONT_SIZE = 12
+FONT_SIZE = 10
 BORDER_SIZE = int(FONT_SIZE / 6)
 NOTIFY = False
-LAST_COUNT = 5
+LAST_COUNT = 10
 LAST_MAX = 50
 
 css_template = (
