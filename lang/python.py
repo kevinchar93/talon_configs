@@ -4,6 +4,7 @@ context = Context("python")
 
 context.keymap(
     {
+        "activate virtual environment": "source env/bin/activate",
         "empty dict": "{}",
         "word (dickt | dictionary)": "dict",
         "state (def | deaf | deft)": "def ",
