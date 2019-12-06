@@ -16,7 +16,7 @@ context.keymap(
         "(rbrack | are bracket | right bracket)": "}",
         "(angle | left angle | less than)": "<",
         "(rangle | are angle | right angle | greater than)": ">",
-        "(star | asterisk)": "*",
+        "(starling | asterisk)": "*",
         "(pound | hash [sign] | octo | thorpe | number sign)": "#",
         "percent [sign]": "%",
         "caret": "^",
