@@ -22,7 +22,7 @@ alternate_keys = {
 }
 
 symbols = {
-    "back tick": "`",
+    "ticky": "`",
     "commie": ",",
     "dot": ".",
     "period": ".",
