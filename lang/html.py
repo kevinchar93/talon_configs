@@ -126,6 +126,7 @@ context.keymap(
         "(tag | ellie) her": "<hr>",
         "(tag | ellie) burr": "<br>",
         "(tag | ellie) class": ["class=\"\"", Key("left")],
+        "(tag | ellie) button": CursorText("<button type=\"button\" class=\"\">{.}</button>"),
         # Attributes - example: "tag div addy class box" will output "<div class="box"></div>
         "(addy | tag) class <dgndictation>": [
             Key("left"),
