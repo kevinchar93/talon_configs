@@ -11,7 +11,7 @@ formatters = {
     "camel": (True, lambda i, word, _: word if i == 0 else word.capitalize()),
     "snake": (True, lambda i, word, _: word.lower() if i == 0 else "_" + word.lower()),
     "smash": (True, lambda i, word, _: word),
-    "kebab": (True, lambda i, word, _: word if i == 0 else "-" + word),
+    "spine": (True, lambda i, word, _: word if i == 0 else "-" + word),
     "pack": (True, lambda i, word, _: word if i == 0 else "::" + word),
     "title": (False, lambda i, word, _: word.capitalize()),
     "allcaps": (False, lambda i, word, _: word.upper()),

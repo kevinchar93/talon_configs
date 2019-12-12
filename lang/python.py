@@ -4,6 +4,7 @@ context = Context("python")
 
 context.keymap(
     {
+        "python": "python ",
         "activate virtual environment": "source env/bin/activate",
         "empty dict": "{}",
         "word (dickt | dictionary)": "dict",
@@ -27,5 +28,8 @@ context.keymap(
         "self taught": "self.",
         "from import": ["from import ", Key("alt-left"), Key("space"), Key("left")],
         "for in": ["for in ", Key("alt-left"), Key("space"), Key("left")],
+        
+        # aliases for python libraries
+        "ely": "eel",
     }
 )

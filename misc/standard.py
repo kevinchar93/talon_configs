@@ -59,6 +59,7 @@ keymap.update(
         "ack": "ack ",
         "diff": "diff ",
         "dot pie": ".py",
+        "dot html": ".html",
         "run vim": "vim ",
         "run make": "make\n",
         "run jobs": "jobs\n",
