@@ -50,7 +50,6 @@ keymap = {
     "(strike | strikethrough)": Key("cmd-shift-x"),
     "mark all read": Key("shift-esc"),
     "mark channel read": Key("esc"),
-    "(clear | scrap | scratch)": Key("cmd-a backspace"),
     # Files and Snippets
     "(slack | lack) upload": Key("cmd-u"),
     "(slack | lack) snippet": Key("cmd-shift-enter"),

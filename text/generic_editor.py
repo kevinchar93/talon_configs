@@ -71,12 +71,15 @@ keymap = {
     "sprinkoon" + numerals(): jump_to_eol_and(lambda: press("enter")),
     "dear" + optional_numerals(): jump_to_eol_and(lambda: None),
     "smear" + optional_numerals(): jump_to_eol_and(jump_to_nearly_end_of_line),
+    
     # general
     "fullscreen": Key("ctrl-cmd-f"),
+    
     # file
     "new": Key("cmd-n"),
     "(save | safe)": Key("cmd-s"),
     "close (file | tab)": Key("cmd-w"),
+    
     # selection
     "(select | cell) up": Key("shift-up"),
     "(select | cell) down": Key("shift-down"),
@@ -86,12 +89,15 @@ keymap = {
     "(select | cell) left": Key("shift-left"),
     "(select | cell) (end | push)": Key("cmd-shift-right"),
     "(select | cell) (start | begin | pop)": Key("cmd-shift-left"),
+    
     # edit
     "paste match": Key("cmd-shift-v"),
     "shove": Key("cmd-]"),
     "tug": Key("cmd-["),
-    "(scrap | scratch | delete) word": Key("alt-backspace"),
-    "(scrap | scratch | delete) (begin | start)": Key("cmd-backspace"),
+    "splat lease": Key("alt-backspace"),
+    "splat ross": Key("alt-delete"),
+    "(scrap | scratch) (begin | start)": Key("cmd-backspace"),
+    
     # navigation
     "push": Key("cmd-right"),
     "pop": Key("cmd-left"),

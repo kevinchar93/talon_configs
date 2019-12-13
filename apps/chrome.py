@@ -9,6 +9,7 @@ keymap = {
     "close [tab]": Key("cmd-w"),
     "chrome (find | marco)": Key("cmd-f"),
     "dev tools": Key("cmd-alt-i"),
+    
     # navigating current page
     "help": Key("?"),
     "scroll tiny down": Key("j"),
@@ -18,7 +19,6 @@ keymap = {
     "scroll (pop | spring)": Key("z H"),
     "scroll push": Key("z L"),
     "scroll top": Key("gg"),
-    "scroll (bottom | end)": Key("G"),
     "(scroll half down | mini page)": Key("d"),
     "scroll half up": Key("u"),
     "[open] link": Key("f"),
@@ -30,18 +30,23 @@ keymap = {
     "insert mode": Key("i"),
     "next frame": Key("g f"),
     "main frame": Key("g F"),
+
     # navigating to new pages
     "(open | go) (url | history)": Key("o"),
     "(open | go) (url | history) new": Key("O"),
     "(open | go) bookmark": Key("b"),
     "(open | go) bookmark new": Key("B"),
+
     # using find
+    "find": Key("cmd-f"),
     "find mode": Key("/"),
     "next match": Key("n"),
     "previous match": Key("N"),
+
     # navigating history
     "history back": Key("H"),
     "history forward": Key("L"),
+    
     # manipulating tabs
     "last visited": Key("^"),
     "dupe tab": Key("y t"),

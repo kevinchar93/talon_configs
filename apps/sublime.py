@@ -47,7 +47,7 @@ keymap = {
     "snipline super": Key("ctrl-shift-k"),
     "dup line": Key("cmd-shift-d"),
     "up slap": Key("cmd-shift-enter"),
-    "(scrap | scratch | delete) end": [Key("cmd-k"), Key("cmd-k")],
+    "(scrap | scratch) end": [Key("cmd-k"), Key("cmd-k")],
     "(uppercase | upcase)": [Key("cmd-k"), Key("cmd-u")],
     "(lower | lowercase | downcase)": [Key("cmd-k"), Key("cmd-l")],
     # navigation
