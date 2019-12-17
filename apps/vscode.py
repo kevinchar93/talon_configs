@@ -15,7 +15,9 @@ context.keymap(
         "clone": Key("alt-shift-down"),
 
         # Navigation
-        "Go toa line": Key("cmd-g"),
+        "go to line": Key("cmd-g"),
+        "go back": Key("ctrl--"),
+        "go forward": Key("ctrl-shift--"),
 
         # Navigating Interface
         "explore": Key("shift-cmd-e"),
