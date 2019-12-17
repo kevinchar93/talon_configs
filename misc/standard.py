@@ -151,6 +151,7 @@ keymap.update(
         "status menu": Key("ctrl-f8"),
         "my doc": Key("ctrl-f3"),
         "user kevin": "kecharl",
+        "search proc": "ps -ef | grep ",
        }
 )
 
