@@ -42,7 +42,7 @@ context.keymap(
         "bracken": [Key("cmd-shift-ctrl-right")],
         
         # various
-        "comment": Key("cmd-shift-7"),
-        "(complete | drop-down | drop)": Key("ctrl-space"),
+        "comment": Key("cmd-/"),
+        "complete ": Key("ctrl-space"),
     }
 )
