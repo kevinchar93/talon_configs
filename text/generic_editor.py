@@ -88,7 +88,7 @@ keymap = {
     "(select | cell) right": Key("shift-right"),
     "(select | cell) left": Key("shift-left"),
     "(select | cell) (end | push)": Key("cmd-shift-right"),
-    "(select | cell) (start | begin | pop)": Key("cmd-shift-left"),
+    "(select | cell) (start | begin | pull)": Key("cmd-shift-left"),
     
     # edit
     "paste match": Key("cmd-shift-v"),
@@ -100,7 +100,7 @@ keymap = {
     
     # navigation
     "push": Key("cmd-right"),
-    "pop": Key("cmd-left"),
+    "pull": Key("cmd-left"),
     "step": Key("alt-right"),
     "stone": Key("alt-left"),
     "home": Key("home"),
