@@ -55,6 +55,8 @@ keymap.update(
         "grep": "grep ",
         "elle less": "ls ",
         "run list": "ls\n",
+        "long list": "ls -l ",
+        "run long list": "ls -l \n",
         "run (S S H | S H)": "ssh",
         "(ssh | sh)": "ssh ",
         "ack": "ack ",
@@ -154,6 +156,8 @@ keymap.update(
         "my doc": Key("ctrl-f3"),
         "user kevin": "kecharl",
         "search proc": "ps -ef | grep ",
+        "change owner": "chown ",
+        "change permission": "chmod ",
        }
 )
 
