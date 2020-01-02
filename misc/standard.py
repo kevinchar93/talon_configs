@@ -157,7 +157,7 @@ keymap.update(
         "user kevin": "kecharl",
         "search proc": "ps -ef | grep ",
         "change owner": "chown ",
-        "change permission": "chmod ",
+        "change mode": "chmod ",
        }
 )
 
