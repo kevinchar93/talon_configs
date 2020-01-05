@@ -44,6 +44,7 @@ keymap.update(
         "recursive remove": "rm -rf ",
         "touch": "touch ",
         "print directory": "pwd \n",
+        "find here": "find . -name ",
         "cd": "cd ",
         "cd up": "cd .. \n",
         "cd talon home": "cd {}\n".format(TALON_HOME),
@@ -54,6 +55,8 @@ keymap.update(
         "grep": "grep ",
         "elle less": "ls ",
         "run list": "ls\n",
+        "long list": "ls -l ",
+        "run long list": "ls -l \n",
         "run (S S H | S H)": "ssh",
         "(ssh | sh)": "ssh ",
         "ack": "ack ",
@@ -62,6 +65,7 @@ keymap.update(
         "dot html": ".html",
         "run vim": "vim ",
         "run make": "make\n",
+        "run (clean | claim)": "make clean\n",
         "run jobs": "jobs\n",
         "(jay son | jason )": "json",
         "(http | htp)": "http",
@@ -152,6 +156,8 @@ keymap.update(
         "my doc": Key("ctrl-f3"),
         "user kevin": "kecharl",
         "search proc": "ps -ef | grep ",
+        "change owner": "chown ",
+        "change mode": "chmod ",
        }
 )
 
