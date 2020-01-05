@@ -3,7 +3,7 @@
 	"new-line": "\n",
 	"new-paragraph": "\n\n",
 	"furnish": "varnish",
-	"pseudo-": "sudo",
+	"pseudo-": "sudo ",
 	"apt get": "apt-get",
 	"krohn": "cron",
 	"standard out": "stdout",

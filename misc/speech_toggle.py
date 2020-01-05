@@ -9,11 +9,11 @@ sleepy.keymap(
     {
         "talon sleep": lambda m: speech.set_enabled(False),
         "talon wake": lambda m: speech.set_enabled(True),
-        "dragon mode": [
+        "dragon": [
             lambda m: speech.set_enabled(False),
             lambda m: engine.mimic("wake up".split()),
         ],
-        "talon mode": [
+        "talon": [
             lambda m: speech.set_enabled(True),
             lambda m: engine.mimic("go to sleep".split()),
         ],
