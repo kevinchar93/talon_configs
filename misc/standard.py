@@ -158,6 +158,7 @@ keymap.update(
         "search proc": "ps -ef | grep ",
         "change owner": "chown ",
         "change mode": "chmod ",
+        "read link": "readlink -f ",
        }
 )
 
