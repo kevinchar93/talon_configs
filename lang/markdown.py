@@ -4,6 +4,7 @@ context = Context("markdown")
 
 context.keymap(
     {
+     "insert task": "OSGD-",
      "insert list": "* ",
      "insert sob list": "  * ",
      "insert break": "</br>",
