@@ -28,5 +28,6 @@
 	"sink": "sync",
 	"sinking": "syncing",
 	"lennox": "linux",
-	"tale": "tail"
+	"tale": "tail",
+	"bog": "bug"
 }
