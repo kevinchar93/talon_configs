@@ -164,6 +164,8 @@ keymap.update(
         "(yom | yum) install": "yum install ",
         "(yom | yum) remove": "yum remove ",
         "ubuntu package manager": "sudo apt-get ",
+        "secure address": "https://",
+        "insecure address": "http://",
        }
 )
 
