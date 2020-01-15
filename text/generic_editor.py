@@ -99,8 +99,6 @@ keymap = {
     "(scrap | scratch) (begin | start)": Key("cmd-backspace"),
     
     # navigation
-    "push": Key("cmd-right"),
-    "pull": Key("cmd-left"),
     "step": Key("alt-right"),
     "stone": Key("alt-left"),
     "home": Key("home"),
