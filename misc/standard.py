@@ -159,6 +159,11 @@ keymap.update(
         "change owner": "chown ",
         "change mode": "chmod ",
         "read link": "readlink -f ",
+        "red package manager": "rpm ",
+        "red package search": "rpm -qa | grep ",
+        "(yom | yum) install": "yum install ",
+        "(yom | yum) remove": "yum remove ",
+        "ubuntu package manager": "sudo apt-get ",
        }
 )
 
