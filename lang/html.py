@@ -126,7 +126,7 @@ context.keymap(
         "(tag | ellie) image": CursorText('<img src="{.}" alt="" title="" />'),
         "(tag | ellie) her": "<hr>",
         "(tag | ellie) burr": "<br>",
-        "(tag | ellie) class": ["class=\"\"", Key("left")],
+        "(tag | ellie) class": [" class=\"\"", Key("left")],
         "(tag | ellie) button": CursorText("<button type=\"button\">{.}</button>"),
 		"(tag | ellie) comment": CursorText("<!-- {.} "),
         # Attributes - example: "tag div addy class box" will output "<div class="box"></div>
