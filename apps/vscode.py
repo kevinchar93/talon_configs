@@ -44,5 +44,9 @@ context.keymap(
         # various
         "comment": Key("cmd-/"),
         "complete ": Key("ctrl-space"),
+
+		# cursors
+		"cursor above": Key("alt-shift-cmd-up"),
+		"cursor below": Key("alt-shift-cmd-down"),
     }
 )
