@@ -139,6 +139,8 @@ keymap.update(
         "(undo | under | skunks)": Key("cmd-z"),
         "redo": Key("cmd-shift-z"),
         "scratch": Key("cmd-backspace"),
+        "scrum": [Key("shift-end"), Key("backspace")],
+        "select line": [Key("end"), Key("shift-home")],
         "more bright": Key("brightness_up"),
         "less bright": Key("brightness_down"),
         "volume up": Key("volume_up"),
