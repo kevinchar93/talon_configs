@@ -30,5 +30,7 @@
 	"lennox": "linux",
 	"tale": "tail",
 	"bog": "bug",
-	"consul": "console"
+	"consul": "console",
+	"bottom": "button",
+	"bottoms": "buttons"
 }

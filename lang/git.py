@@ -65,5 +65,7 @@ context.keymap(
         "get revert": "git revert ",
         "get config": "git config  ",
         "get cherry pick": "git cherry-pick ",
+        "get clean ": "git clean ",
+        "get clean all": "git clean -fdx",
     }
 )

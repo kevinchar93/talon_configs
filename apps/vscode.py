@@ -48,5 +48,10 @@ context.keymap(
 		# cursors
 		"cursor above": Key("alt-shift-cmd-up"),
 		"cursor below": Key("alt-shift-cmd-down"),
+
+        # 
+        "(peak | peek) definition": Key("alt-f12"),
+        "go to definition": Key("f12"),
+        "zen mode": [Key("cmd-k"), Key("z")],
     }
 )

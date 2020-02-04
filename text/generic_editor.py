@@ -101,7 +101,9 @@ keymap = {
     # navigation
     "step": Key("alt-right"),
     "stone": Key("alt-left"),
+    "pull": Key("home"),
     "home": Key("home"),
+    "push": Key("end"),
     "end": Key("end"),
     "jump to <dgndictation>": jump_to,
 }

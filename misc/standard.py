@@ -168,6 +168,7 @@ keymap.update(
         "ubuntu package manager": "sudo apt-get ",
         "secure address": "https://",
         "insecure address": "http://",
+        "screenshot": Key("cmd-shift-4"),
        }
 )
 

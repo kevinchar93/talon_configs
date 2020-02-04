@@ -5,8 +5,8 @@ ctx = Context("sublime", bundle="com.sublimetext.3")
 keymap = {
     "(trundle | comment) super": Key("cmd-alt-/"),
     # general
-    "sidebar": [Key("cmd-k"), Key("cmd-b")],
-    "(subl | sublime) (focus | folk) sidebar": Key("ctrl-0"),
+    # "sidebar": [Key("cmd-k"), Key("cmd-b")],
+    # "(subl | sublime) (focus | folk) sidebar": Key("ctrl-0"),
     "console": Key("ctrl-`"),
     "[command] pallet": Key("cmd-shift-p"),
     "(column | row) one": Key("alt-cmd-1"),
