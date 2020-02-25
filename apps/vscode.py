@@ -8,7 +8,7 @@ context.keymap(
         # Selecting text
         
         # Finding text
-        "find": Key("cmd-f"),
+        "(find | search)": Key("cmd-f"),
         "find in files": Key("cmd-shift-f"),
         
         # Clipboard
@@ -21,7 +21,6 @@ context.keymap(
 
         # Navigating Interface
         "explore": Key("shift-cmd-e"),
-        "search": Key("shift-cmd-f"),
         "debug": Key("shift-cmd-d"),
         "source control": Key("shift-ctrl-g"),
         "extensions": Key("shift-cmd-x"),
@@ -52,6 +51,8 @@ context.keymap(
         # 
         "(peak | peek) definition": Key("alt-f12"),
         "go to definition": Key("f12"),
+        "references": Key("shift-f12"),
         "zen mode": [Key("cmd-k"), Key("z")],
+        "change name": Key("f2"),
     }
 )

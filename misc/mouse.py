@@ -95,7 +95,7 @@ keymap = {
     "(righty | psychic)": delayed_right_click,
     "(click | kick)": delayed_click,
     "(kick mid)": delayed_middle_click,
-    "(dubclick | duke)": delayed_dubclick,
+    "(dubclick | duke | cobble)": delayed_dubclick,
     "(tripclick | triplick)": delayed_tripclick,
     "(drag | squat)": mouse_drag,
     "(release | bench)": mouse_release,
@@ -103,7 +103,7 @@ keymap = {
     "(shift click | shicks)": shift_click,
     "(command click | chom lick)": command_click,
     "do park": [delayed_dubclick, Key("cmd-v")],
-    "do koosh": [delayed_dubclick, Key("cmd-c")],
+    "do (koosh | duncan)": [delayed_dubclick, Key("cmd-c")],
     "wheel down": mouse_scroll(250),
     "wheel up": mouse_scroll(-250),
 }

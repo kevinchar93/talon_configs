@@ -65,7 +65,7 @@ ctx.keymap(
         "rotate counterclockwise by 1 degree": Key("alt+shift+left"),
         "rotate clockwise by 1 degree": Key("alt+shift+right"),
         "close drawing [editor]": Key("cmd+esc"),
-        "(insert | add) comment": Key("cmd+alt+m"),
+        # "(insert | add) comment": Key("cmd+alt+m"),
         "open discussion thread": Key("cmd+alt+shift+a"),
         "enter [current] comment": Key("ctrl+enter"),
         "insert footnote": Key("cmd+alt+f"),

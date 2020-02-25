@@ -6,7 +6,7 @@ keymap = {
     "(address bar | go address | go url)": Key("cmd-l"),
     "go back[ward]": Key("cmd-["),
     "forward": Key("cmd-]"),
-    "close [tab]": Key("cmd-w"),
+    "close tab": Key("cmd-w"),
     "chrome (find | marco)": Key("cmd-f"),
     "dev tools": Key("cmd-alt-i"),
     
@@ -32,13 +32,14 @@ keymap = {
     "main frame": Key("g F"),
 
     # navigating to new pages
-    "(open | go) (url | history)": Key("o"),
-    "(open | go) (url | history) new": Key("O"),
-    "(open | go) bookmark": Key("b"),
-    "(open | go) bookmark new": Key("B"),
+    "open ": Key("cmd-p"),
+    "(go) (url | history)": Key("o"),
+    "(go) (url | history) new": Key("O"),
+    "(go) bookmark": Key("b"),
+    "(go) bookmark new": Key("B"),
 
     # using find
-    "find": Key("cmd-f"),
+    "(find | search)": Key("cmd-f"),
     "find mode": Key("/"),
     "next match": Key("n"),
     "previous match": Key("N"),
@@ -53,6 +54,6 @@ keymap = {
     "restore": Key("X"),
     "search tabs": Key("T"),
     "move to window": Key("W"),
-}
+}  
 
 context.keymap(keymap)

@@ -17,7 +17,7 @@ formatters = {
     "allcaps": (False, lambda i, word, _: word.upper()),
     "alldown": (False, lambda i, word, _: word.lower()),
     "dubstring": (False, surround('"')),
-    "string": (False, surround("'")),
+    # "string": (False, surround("'")),
     "padded": (False, surround(" ")),
     "dotted": (True, lambda i, word, _: word if i == 0 else "." + word),
     "slasher": (True, lambda i, word, _: "/" + word),
@@ -61,7 +61,7 @@ keymap.update(
         "phrase <dgndictation> [over]": text,
         "(say | speak) <dgndictation>++ [over]": text,
         "sentence <dgndictation> [over]": sentence_text,
-        "word <dgnwords>": word,
+        "(word | single) <dgnwords>": word,
         "(%s)+ <dgndictation> [over]" % (" | ".join(formatters)): FormatText,
     }
 )

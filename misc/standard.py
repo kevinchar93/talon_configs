@@ -4,6 +4,7 @@ from talon_init import TALON_HOME, TALON_PLUGINS, TALON_USER
 import string
 from ..utils import surround, parse_words, parse_word, sentence_text, text, word
 from talon.engine import engine
+from datetime import datetime
 
 
 def engine_update(j):
@@ -72,7 +73,7 @@ keymap.update(
         "tls": "tls",
         "md5": "md5",
         "(regex | rejex)": "regex",
-        "const": "const ",
+        "(const)": "const ",
         "static": "static ",
         "tip pent": "int ",
         "tip char": "char ",
@@ -104,14 +105,16 @@ keymap.update(
         "word shell": "shell",
         "word Point2d": "Point2d",
         "word Point3d": "Point3d",
-        "title Point": "Point",
+        # "title Point": "Point",
         "word angle": "angle",
         "dunder in it": "__init__",
         "self taught": "self.",
         "(dickt in it | inside bracket | in bracket)": ["{}", Key("left")],
         "(in | inside) percent": ["%%", Key("left")],
         "list in it": ["[]", Key("left")],
-        "string utf8": "'utf8'",
+        # "string utf8": "'utf8'",
+        "string": "string",
+        "title String": "String",
         "state past": "pass",
         "shebang bash": "#!/bin/bash -u\n",
         "new window": Key("cmd-n"),
